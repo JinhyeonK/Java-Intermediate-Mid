@@ -17,7 +17,7 @@ public class Main {
             arr2[i] = sc.nextInt();
             if (su.containsKey(arr2[i])) {
                 System.out.print(su.get(arr2[i]) + " ");
-                cnt++;
+                cnt += su.get(arr2[i]);
             } else {
                 System.out.print("0 ");
             }
